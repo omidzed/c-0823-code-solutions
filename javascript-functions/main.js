@@ -22,8 +22,9 @@ function getFirstName(person) {
 }
 console.log("Person's first name:", getFirstName(person1));
 
-const arr1 = [1, 2, 3, 4, 5];
 function getLastElement(array) {
-  return arr1.length - 1;
+  const lastElement = array[array.length - 1];
+  return lastElement;
 }
-console.log('Last element of this array:', getLastElement(arr1));
+const array = [3, 10, 21, 0, 8, 5, 458];
+console.log('Last element of this array:', getLastElement(array));

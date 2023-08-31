@@ -1,6 +1,7 @@
 const num1 = 91;
 const num2 = 107;
 const num3 = 29;
+console.log('creditPlease:', 'forCredit!');
 
 const maximumValue = Math.max(num1, num2, num3);
 console.log('Largest one of my 3 numbers:', maximumValue);

@@ -7,25 +7,31 @@
     <h1>Coding Form!</h1>
     <form>
       <label for="email">Email</label><br />
-      <input type="email" id="email" />
-      <p>Why is coding cool</p>
-      <select name="answers">
+      <input type="email" id="email" /><br />
+      <label for="answers">Why is coding cool</label><br />
+      <select id="answers">
         <option value="default">Select an option</option>
         <option value="first">Because it's interesting!</option>
         <option value="second">Because it's fun!</option>
-        <option value="third">Because it's powerful!</option>
-      </select>
-      <p>Favorite Language (Choose One)</p>
-
-      <input type="radio" id="HTML" value="html" /><label for="html"
-        >HTML</label
-      >
-      <input type="radio" id="CSS" /><label for="html">CSS</label>
-      <input type="radio" id="JavaScript" /><label for="html">JavaScript</label>
-      <p>Would you like to sign up for more information?</p>
+        <option value="third">Because it's powerful!</option></select
+      ><br />
+      <br />
+      <label for="language-options">Favorite Language (Choose One)</label><br />
+      <br />
+      <div id="language-options">
+        <input type="radio" id="HTML" /><label for="html">HTML</label>
+        <input type="radio" id="CSS" /><label for="CSS">CSS</label>
+        <input type="radio" id="JavaScript" /><label for="JavaScript"
+          >JavaScript</label
+        >
+      </div>
+      <br />
+      <label for="signup">Would you like to sign up for more information?</label
+      ><br />
+      <br />
       <input type="checkbox" id="signup" name="signup" value="signup" />
       <label for="signup"> Sign me up!</label><br />
-      <p>Comments</p>
+      <label for="comments">Comments</label><br />
       <textarea id="comments" name="comments" rows="5" cols="33"></textarea
       ><br />
       <input type="submit" value="Submit" />

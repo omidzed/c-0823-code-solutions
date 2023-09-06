@@ -37,6 +37,7 @@ const isSparta = headCount === 300;
 console.log('is Sparta?', isSparta);
 console.log('Type of isSparta:', typeof isSparta);
 
-const motto = fullName + ' is the GOAT!';
+let motto = fullName;
+motto += ' is the GOAT!';
 console.log('Motto:', motto);
 console.log('Type of motto:', typeof motto);

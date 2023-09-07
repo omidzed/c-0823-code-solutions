@@ -1,0 +1,63 @@
+button {
+  text-align: left;
+  font-size: 150%;
+  margin: 20px;
+  size: 100cap;
+  padding: 20px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.button-container {
+  text-align: left;
+  margin: 20px;
+  padding: auto;
+}
+
+label {
+  font-size: 150%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.table-container {
+  text-align: left;
+  padding: auto;
+}
+
+table {
+  text-align: left;
+  font-size: 150%;
+  size: 100cap;
+  padding: 20px;
+  margin: 20px;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+#tr1 {
+  background-color: #d2d2d2;
+}
+
+#tr2 {
+  background-color: #fff;
+}
+
+#tr3 {
+  background-color: #d2d2d2;
+}
+
+#tr4 {
+  background-color: #fff;
+}
+
+#tr5 {
+  background-color: #d2d2d2;
+}

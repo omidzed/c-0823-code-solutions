@@ -23,4 +23,4 @@ console.log(
   'ISBN for "Introduction to JavaScript Object Notation: A To-the-Point Guide to JSON":',
   bookshelf[0].isbn
 );
-console.log('The last book of this series →', bookshelf[2].title);
+console.log('The last book of the series: ', bookshelf[2].title);

@@ -1,0 +1,52 @@
+h3 {
+  color: red;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 65%;
+  width: 110%;
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #aaa;
+  width: 400px;
+}
+
+select {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+}
+
+option {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #aaa;
+  width: 100%;
+}
+
+button {
+  float: right;
+  margin-top: 1px;
+  font-family: AtlasGrotesk, normal, sans-serif;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  width: 40%;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Brandon Grotesque', normal, sans-serif;
+}

@@ -14,7 +14,7 @@ const $hint = document.querySelector('.hint');
 console.log('$hint: ', $hint);
 console.dir($hint);
 
-const $paragraphs = document.querySelectorAll('.p');
+const $paragraphs = document.querySelectorAll('p');
 console.log('$paragraphs: ', $paragraphs);
 
 const $exampleLink = document.querySelectorAll('.example-link');

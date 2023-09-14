@@ -20,9 +20,10 @@ After completing this exercise, you should be able to discuss or answer the foll
   At all steps, you can never do too much logging.
 
 - If you were to add another tab and view to your HTML, but you didn't use event delegation, how would your JavaScript code be written instead?
-  Nothing
+  Would need to add event listeners to each of the new child elements.
 
 - If you didn't use a loop to conditionally show or hide the views in the page, how would your JavaScript code be written instead?
+  Use if/else statements for each tab and view, and get very long and messy
 
 ## Notes
 

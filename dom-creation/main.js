@@ -96,6 +96,7 @@ function renderPokemon(pokemon) {
   pokemonCardText.appendChild(paragraph);
 
   document.body.appendChild(divColumnThird);
+  return divColumnThird;
 }
 
 const $row = document.querySelector('.row');

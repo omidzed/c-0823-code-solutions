@@ -23,10 +23,10 @@ const booksJSON = JSON.stringify(books);
 console.log('Books array serialized: ', booksJSON);
 console.log('Type: ', typeof booksJSON);
 
-const studentJsonString = {
-  'Number id': '1234-5678',
-  name: 'Omid Asadi',
-};
+const studentJsonString = `{
+  "id": "1234",
+  "name": "Omid Asadi"
+}`;
 
 console.log('Student JSON: ', studentJsonString);
 console.log('Type: ', typeof studentJsonString);

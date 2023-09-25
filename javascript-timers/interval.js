@@ -1,4 +1,5 @@
 const $h1divInterval = document.querySelector('h1');
+const stopInterval = setInterval(changeH1TextInterval, 1000);
 
 function changeH1TextInterval() {
   if ($h1divInterval.innerText === '4') {
@@ -10,6 +11,8 @@ function changeH1TextInterval() {
   } else if ($h1divInterval.innerText === '1') {
     $h1divInterval.innerText = '~Earth Beeeelooowww Us~';
   }
+  return stopInterval;
 }
 
 setInterval(changeH1TextInterval, 1000);
+clearInterval(stopInterval);

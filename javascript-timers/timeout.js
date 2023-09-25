@@ -4,4 +4,4 @@ function changeH1Text() {
   $h1div.innerText = 'Hello There';
 }
 
-setTimeout(changeH1Text(), 2000);
+setTimeout(changeH1Text, 2000);

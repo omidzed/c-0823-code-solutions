@@ -10,9 +10,6 @@ function changeH1TextInterval() {
     $h1divInterval.innerText = '1';
   } else if ($h1divInterval.innerText === '1') {
     $h1divInterval.innerText = '~Earth Beeeelooowww Us~';
+    clearInterval(stopInterval);
   }
-  return stopInterval;
 }
-
-setInterval(changeH1TextInterval, 1000);
-clearInterval(stopInterval);

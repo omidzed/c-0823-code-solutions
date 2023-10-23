@@ -48,4 +48,30 @@ $rightChevron.addEventListener('click', function (event) {
   changePokemon();
 });
 
-setInterval(changePokemon, 3000);
+setInterval(changePokemon, 10000);
+
+$jigglypuffCircle.addEventListener('click', function (event) {
+  event.preventDefault();
+  $image.src = images[4];
+  $jigglypuffCircle.querySelector('i').className = 'fa-solid fa-circle';
+});
+
+$bulbasaurCircle.addEventListener('click', function (event) {
+  event.preventDefault();
+  $image.src = images[0];
+});
+
+$squirtleCircle.addEventListener('click', function (event) {
+  event.preventDefault();
+  $image.src = images[2];
+});
+
+$charmanderCircle.addEventListener('click', function (event) {
+  event.preventDefault();
+  $image.src = images[1];
+});
+
+$pikachuCircle.addEventListener('click', function (event) {
+  event.preventDefault();
+  $image.src = images[3];
+});
